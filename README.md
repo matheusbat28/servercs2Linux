@@ -34,3 +34,21 @@ bash linuxgsm.sh cs2server
 
 # 3. Instalar o servidor CS2
 ./cs2server install
+
+
+# Ver todos os comandos disponíveis
+./cs2server
+
+# Comandos principais do dia a dia
+./cs2server start          # Inicia o servidor
+./cs2server stop           # Para o servidor
+./cs2server restart        # Reinicia o servidor
+./cs2server console        # Abre o console (CTRL+b, d para sair)
+./cs2server update         # Atualiza o servidor
+./cs2server force-update   # Força atualização via SteamCMD
+./cs2server validate       # Valida todos os arquivos
+./cs2server backup         # Cria backup completo
+./cs2server details        # Mostra informações do servidor
+./cs2server debug          # Modo de depuração
+./cs2server monitor        # Monitora e reinicia automaticamente
+./cs2server logs           # Exibe logs do servidor
