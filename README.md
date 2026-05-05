@@ -39,7 +39,7 @@ bash linuxgsm.sh cs2server
 # Ver todos os comandos disponíveis
 ./cs2server
 
-# Comandos principais do dia a dia
+# Comandos principais do LinuxGSM (Server)
 ./cs2server start          # Inicia o servidor
 ./cs2server stop           # Para o servidor
 ./cs2server restart        # Reinicia o servidor
